@@ -1,0 +1,162 @@
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    max-width: 1980px;
+    height: 100vh;
+}
+
+.header{ 
+    align-items: center; 
+    background: url(./img/background-header.png) no-repeat center ;
+    height: 1080px;
+ 
+
+}
+
+
+
+.header-row{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   margin: 0 auto;
+
+}
+
+.nav-links{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 40px;
+}
+
+.nav-links:last-child{
+    margin-right: 0;
+}
+
+
+.btn-def-white{
+    color: #0D0D0D;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal; 
+    padding: 8px 35px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: 0.2s  ease;
+}
+.btn-def-white:hover{
+    color: #FFF;
+    background-color: #0D0D0D;
+}
+
+.btn-def-white:active{
+    color: #0D0D0D;
+    background-color: #fff;
+}
+.btn-def-white:nth-child(1){
+    margin-right: 40px;
+}
+
+.btn-def-dark{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 35px;
+    background-color: #0D0D0D;
+    border-radius: 10px;
+    transition: 0.2s  ease;
+}
+
+.btn-def-dark:hover{
+    color: #0D0D0D;
+    background-color: #fff;
+}
+.btn-def-dark:active{
+    background-color: #0D0D0D;
+    color: #FFF;
+}
+
+.block0{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+    margin-top: 210px ;
+}
+
+.text-title-h0{
+    float: left;
+    color: #FFF;
+    font-size: 74px;
+    font-weight: 700;
+    max-width: 826px;
+    line-height: 1.1;
+    margin-bottom: 44px;
+}
+
+.block-0-links{
+    padding: 15px 76px;
+    font-size: 24px;
+   margin-bottom: 250px;
+}
+
+
+
+.text-title-h1{
+    color: #000;
+
+font-family: Inter;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 110px ;
+margin-left: 45px;
+}
+
+.shop-items{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.shop-item{
+    background-color: #D9D9D9;
+    border-radius: 75px;
+    background: #b2b1b1;
+    box-shadow: 7px 4px 28px 0px rgba(0, 0, 0, 0.25);
+    margin-right: 45px;
+}
+
+.shop-item:nth-child(1){
+    margin-left: 85px;
+}
+
+.shop-item:nth-child(3){
+    margin-right: 85px;
+}
+
+.item-text{
+    margin-top: 50px;
+}
+
+.item-name{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.desc{
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 72px;
+}
